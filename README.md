@@ -11,6 +11,6 @@ get this codes on your device by using your cmd to run
 ** import smtplib
 
 * Allow lesssecureapps on senders email, to give access to codes to send the email email
-* Do this by  using this link *** https://myaccount.google.com/lesssecureapps
+* Do this by  using this link ** https://myaccount.google.com/lesssecureapps
 
 
