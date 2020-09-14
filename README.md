@@ -6,7 +6,7 @@ get this codes on your device by using your cmd to run
 
 *git clone  https://github.com/felaris/Email_Sender.git
 
-* Libraries used was smtplib
+* Library used was smtplib
 * Code takes inputs from the user,thus senders email,password, recipients email and message
 ** import smtplib
 
