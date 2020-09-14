@@ -1,15 +1,15 @@
 import smtplib
 
-sender = input("Enter Sender's Email")
+sender = input("Enter Sender's Email :\n")
 sender = str(sender)
 
-password = input("Enter Sender's Password")
+password = input("Enter Sender's Password :\n")
 
-to = input("Enter Reciepient Email")
+to = input("Enter Reciepient Email :\n")
 to = str(to)
 
 
-content = input(" Enter Content")
+content = input(" Enter Content :\n")
 
 
 def sendEmail(to, content):
@@ -17,4 +17,7 @@ def sendEmail(to, content):
     server.ehlo()
     server.starttls()
     server.login(sender,password)
-    server.sendmail
+    server.sendmail(sender,to,content)
+    server.close()
+
+sendEmail(to,content)
